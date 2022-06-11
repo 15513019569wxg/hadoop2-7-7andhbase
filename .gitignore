@@ -1,0 +1,4 @@
+# 项目排除路径
+/Hbase-Mr-Demo/target/
+/hbase-phoenix/target/
+/hdfsDemo/target/

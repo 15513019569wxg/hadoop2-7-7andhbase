@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f432ce63-8d81-4644-841c-4a2bd625b2d0" name="hadoop102" url="http://hadoop102:20">
+        <fileTransfer accessType="SFTP" host="hadoop102" port="22" sshConfigId="cddbca3e-8f7e-4c25-9c9a-f122dee4a2f1" sshConfig="wxg@hadoop102:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="84d73e28-3f4f-4991-9b82-a8fb61070734" name="hadoop103" url="http://hadoop103:20">
+        <fileTransfer accessType="SFTP" host="hadoop103" port="22" sshConfigId="c93c7de3-5cc0-4e9c-a7f4-8eceab65f7ed" sshConfig="wxg@hadoop103:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f8d40333-2c35-42e0-a730-328a25ccd161" name="hadoop104" url="http://hadoop104:20">
+        <fileTransfer accessType="SFTP" host="hadoop104" port="22" sshConfigId="9c5bfcac-7b3e-4d89-9f43-abc2c43e85aa" sshConfig="wxg@hadoop104:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5f40218e-8337-45cc-a93e-240b9750f89a" name="bigData" url="http://localhost">
+        <fileTransfer mountedRoot="E:\大数据技术资料" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="cee08b76-a751-4b0e-87af-180eebcb81a5" name="windows" url="http://localhost">
+        <fileTransfer mountedRoot="C:\Users\86187\Desktop" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="f36d6074-8911-4ba8-8638-025ea724863d" name="$PROJECT_DIR$/../../.." url="http://localhost">
+        <fileTransfer mountedRoot="E:\" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>hadoop</name>
+        <servers>
+          <name value="hadoop102" />
+          <name value="hadoop103" />
+          <name value="hadoop104" />
+          <name value="bigData" />
+          <name value="windows" />
+          <name value="$PROJECT_DIR$/../../.." />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>
